@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlumnoActivity"
+    android:padding="5dp"
+
+
+    >
+
+    <TextView
+        android:id="@+id/idAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_registro_alumno"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="357dp"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:hint="Ingrese nombres"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.062"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/txtApellido"
+            android:layout_width="350dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:hint="Ingrese apellidos"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.193"
+            android:textAlignment="center"/>
+
+
+        <EditText
+            android:id="@+id/txtdni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:ems="10"
+            android:hint="Ingrese dni"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="378dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="276dp"
+            android:ems="10"
+            android:hint="Ingrese correo"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtFechaNac"
+            android:layout_width="321dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="304dp"
+            android:ems="10"
+            android:hint="Ingrese fecha de nacimiento"
+            android:inputType="date"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/txtFechaReg"
+            android:layout_width="314dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="208dp"
+            android:ems="10"
+            android:hint="Ingrese fecha de registro"
+            android:inputType="date"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="341dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="568dp"
+            android:text="Registrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

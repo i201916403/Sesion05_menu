@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sesion05_menu</string>
+
+    /* AUTOR */
+    <string name="txt_registro_de_autor">Registro de Autor</string>
+
+    /* LIBRO */
+    <string name="txt_registro_de_libro">Registro de Libro</string>
+
+    /* ALUMNO */
+    <string name="txt_registro_alumno">Registro Alumno</string>
+
+    /* MENU */
+    <string name="txt_menu">Menú</string>
+    <string name="txt_libro">Libro</string>
+    <string name="txt_autor">Autor</string>
+    <string name="txt_alumno">Alumno</string>
+
+
+
+
+
+</resources>

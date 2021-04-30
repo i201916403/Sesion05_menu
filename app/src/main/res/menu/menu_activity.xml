@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/idMenu" android:title="@string/txt_menu"/>
+    <item android:id="@+id/idMenLibro" android:title="@string/txt_libro"/>
+    <item android:id="@+id/idMenAutor" android:title="@string/txt_autor"/>
+    <item android:id="@+id/idMenAlumno" android:title="@string/txt_alumno"/>
+
+</menu>
